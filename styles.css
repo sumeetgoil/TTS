@@ -1,0 +1,141 @@
+/************
+GLOBAL STYLES
+************/
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+/*header {
+	padding: 20px;
+	background-color: turquoise;
+}
+/*nav {
+	background-color: #eee;
+	padding: 2px 0;
+	margin-bottom: 20px;
+}
+/* images */
+/*img {
+	max-width: 100%;
+}
+/* links */
+/*a {
+	color: #66c2a1;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: #3c99a2;
+	text-decoration: underline;
+}
+/***********
+CONTACT FORM
+***********/
+label,
+input,
+textarea {
+	display: block;
+}
+input,
+textarea {
+	margin-bottom: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	width: 100%;
+}
+@media (min-width: 520px) {
+	input,
+	textarea {
+		max-width: 400px;
+		padding: 10px;
+	}
+	h1 {
+		padding: 20px;
+	}
+}
+/* These styles create the responsive layout for the First Name and Last Name inputs */
+.split {
+	width: 100%;
+	box-sizing: border-box;
+}
+@media (min-width: 520px) {
+	.split {
+		width: 50%;
+		float: left;
+	}
+	.split-left {
+		padding-right: 10px;
+	}
+	.split-right {
+		padding-left: 10px;
+	}
+}
+
+/*********
+ABOUT PAGE
+*********/
+.about-content {
+	width: 100%;
+}
+@media (min-width: 600px) {
+	.about-content {
+		max-width: 550px;
+	}
+}
+@media (min-width: 768px) {
+	.about-content {
+		max-width: 700px;
+	}
+}
+.portrait-wrapper,
+.bio-copy {
+	width: 100%;
+	box-sizing: border-box;
+}
+@media (min-width: 768px) {
+	.portrait-wrapper {
+		width: 40%;
+		padding-right: 10px;
+		float: left;
+	}
+	.bio-copy {
+		width: 60%;
+		padding-left: 10px;
+		float: left;
+	}
+}
+.portrait {
+	text-align: center;
+	margin: 0;
+}
+@media (min-width: 520px) {
+	.portrait {
+		text-align: left;
+	}
+}
+
+/*************
+PORTFOLIO PAGE
+*************/
+.wrapper {
+	width: 100%;
+}
+figure {
+	text-align: center;
+}
+@media (min-width: 768px) {
+	.wrapper {
+		width: 600px;
+		margin: 0 auto;
+	}
+	figure {
+		width: 200px;
+		float: left;
+		margin: 0 0 20px;
+	}
+}
+
+
+
+

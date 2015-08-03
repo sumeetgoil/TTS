@@ -1,0 +1,34 @@
+h1 {
+	color: #333; 
+	font: 'helvetica'
+	font-size: 3em;
+	font-style: italic;
+	text-transform: capitalize;
+	text-decoration: overline;
+}
+
+p {
+	width: 200px
+	line-height: 175%
+}
+
+.coolness {
+	
+}
+
+p.coolness{
+	
+}
+
+p#wonderfulness {
+
+}
+
+ol {
+	font-weight:bold;
+}
+
+body {
+	font-size: 15px;
+	color: #333;
+}
